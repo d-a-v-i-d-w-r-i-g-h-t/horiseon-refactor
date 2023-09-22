@@ -1,12 +1,14 @@
-# horiseon-refactor
-
-# Your Project Title
+# Horiseon Code Refactor
 
 ## Description 
 
 For this project, I was tasked to research accessibility standards and apply necessary or desired changes to the Horiseon website to better meet those standards, both to provide accessibilty to customers as well as to improve search engine optimization (SEO).
 
 While completing the above work, I could also take the opportunity to follow the "Scout Rule" and make the code cleaner or better organized than when I found it.
+
+I researched accessiblity standards and learned that one key accessibilty concern is text descriptions for any images displayed on the web page. Complete and expressive descriptions are preferred, and I added these descriptions in alt text for all page images. I found that the web page includes a background image inserted via CSS, which does not allow for standard alt text. Instead, together with the class id I had to add the attribute role="img", as well as an ARIA label, short for Accessible Rich Internet Applications. With this technique, assistive technologies, such as screen readers, can be provided with additional information about the purpose of HTML elements so tagged.
+
+Other page updates involved clean-up and organization of the HTML and CSS code. I fixed a broken navigation link, reordered CSS items to match the HTML, and consolidated various CSS selectors. I also added detailed comments to both the HTML and CSS files to clarify functionality.
 
 Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
 
