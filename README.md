@@ -33,6 +33,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+I learned about CSS Selectors from [W3schools](https://www.w3schools.in/), [CSS Selectors](https://www.w3schools.in/css3/selectors).
+
 I learned about semantic elements from the [Semrush Blog](https://www.semrush.com/blog/), [Semantic HTML: What It Is and How to Use It Correctly](https://www.semrush.com/blog/semantic-html5-guide/).
 
 I learned about image descriptions from [Perkins School for the Blind](https://www.perkins.org/), [How to Write Alt Text and Image Descriptions for the visually impaired](https://www.perkins.org/resource/how-write-alt-text-and-image-descriptions-visually-impaired/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2Q3-ZpaKBjylgurELGWHtC1TeAx5Q_9LhN32vlC5OewXqIoyc9_VoaAggvEALw_wcB).
