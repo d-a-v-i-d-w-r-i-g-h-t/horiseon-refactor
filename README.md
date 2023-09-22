@@ -4,13 +4,13 @@
 
 For this project, I was tasked to research accessibility standards and apply necessary or desired changes to the Horiseon website to better meet those standards, both to provide accessibilty to customers as well as to improve search engine optimization (SEO).
 
-While completing the above work, I could also take the opportunity to follow the "Scout Rule" and make the code cleaner or better organized than when I found it.
+While completing the above work, I could also take the opportunity to follow the "Scout Rule" and make the code cleaner and better organized than when I found it.
 
-I researched accessiblity standards and learned that one key accessibilty concern is text descriptions for any images displayed on the web page. Complete and expressive descriptions are preferred, and I added these descriptions in alt text for all page images. I found that the web page includes a background image inserted via CSS, which does not allow for standard alt text. Instead, together with the class id I had to add the attribute role="img", as well as an ARIA label, short for Accessible Rich Internet Applications. With this technique, assistive technologies, such as screen readers, can be provided with additional information about the purpose of HTML elements so tagged.
+I researched accessiblity standards and learned that one key accessibilty concern is text descriptions for any images displayed on the web page. Complete and expressive descriptions are preferred, and I added these descriptions in alt text for all images. I found that the web page includes a background image inserted via CSS, which does not allow for standard alt text. Instead, in addtion to the class ID, I had to add the attribute role="img", as well as an ARIA label, short for Accessible Rich Internet Applications. With this technique, assistive technologies, such as screen readers, can be provided with additional information about the purpose of HTML elements so tagged.
 
-A code snippet showing addition of the ARIA label is shown below.
+A code snippet showing the addition of the ARIA label is shown below.
 
-![Code snippet showing insertion of ARIA label](assets/images/aria-label.png)
+![Code snippet showing addition of ARIA label](assets/images/aria-label.png)
 
 Other page updates involved clean-up and organization of the HTML and CSS code. I fixed a broken navigation link, reordered CSS items to match the HTML, and consolidated various CSS selectors. I also added detailed comments to both the HTML and CSS files to clarify functionality.
 
@@ -19,7 +19,7 @@ An example of CSS selector consolidation is shown below. Class IDs with identica
 ![Code snippet showing consolidation and removal of superfluous CSS selectors](assets/images/CSS-selector-consolidation.png)
 
 
-Notably, I learned that there are multiple ways to structure CSS tagging. Class IDs, elements such as "main" and "aside", and combinations of both can direct formatting of various components in the web page. I chose to add semantic elements and then remove superfluous Class IDs, but it is possible that one way or another might be the preferred standard for different developers or companies.
+Notably, I learned that there are multiple ways to structure CSS tagging. Class IDs, standard semantic elements such as "main" and "aside", and combinations of both can direct formatting of various components in the web page. I chose to add semantic elements and then remove superfluous class IDs, but it is possible that one way or another might be the preferred standard for different developers or companies.
 
 I deployed the application on [GitHub](https://github.com/) [Pages](https://pages.github.com/), and it can be found [here](https://d-a-v-i-d-w-r-i-g-h-t.github.io/horiseon-refactor/).
 
@@ -36,7 +36,7 @@ A screenshot of the web page is provided below.
 ![Top half of the Horiseon web page](assets/images/horiseon-screenshot-top.png)
 ![Bottom half of the Horiseon web page](assets/images/horiseon-screenshot-bottom.png)
 
-Navigation links are at the top right and jump the user to the designated content section using anchor tags. As the web page isn't very long, this functionality is easier to demonstrate if the user's browser window height is reduced.
+Navigation links are at the top right and jump the user to the designated content sections using anchor tags. As the web page isn't very long, this functionality is easier to demonstrate if the user's browser window height is reduced.
 
 Alternate text for web page images can be viewed by right-clicking on the desired image and selecting "Inspect".
 
