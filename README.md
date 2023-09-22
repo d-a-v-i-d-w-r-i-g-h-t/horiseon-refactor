@@ -8,7 +8,16 @@ While completing the above work, I could also take the opportunity to follow the
 
 I researched accessiblity standards and learned that one key accessibilty concern is text descriptions for any images displayed on the web page. Complete and expressive descriptions are preferred, and I added these descriptions in alt text for all page images. I found that the web page includes a background image inserted via CSS, which does not allow for standard alt text. Instead, together with the class id I had to add the attribute role="img", as well as an ARIA label, short for Accessible Rich Internet Applications. With this technique, assistive technologies, such as screen readers, can be provided with additional information about the purpose of HTML elements so tagged.
 
+A code snippet showing addition of the ARIA label is shown below.
+
+![Code snippet showing insertion of ARIA label](assets/images/aria-label.png)
+
 Other page updates involved clean-up and organization of the HTML and CSS code. I fixed a broken navigation link, reordered CSS items to match the HTML, and consolidated various CSS selectors. I also added detailed comments to both the HTML and CSS files to clarify functionality.
+
+An example of CSS selector consolidation is shown below. Class IDs with identical formatting were replaced with a more generic class ID.
+
+![Code snippet showing consolidation and removal of superfluous CSS selectors](assets/images/CSS-selector-consolidation.png)
+
 
 Notably, I learned that there are multiple ways to structure CSS tagging. Class IDs, elements such as "main" and "aside", and combinations of both can direct formatting of various components in the web page. I chose to add semantic elements and then remove superfluous Class IDs, but it is possible that one way or another might be the preferred standard for different developers or companies.
 
@@ -22,13 +31,14 @@ N/A
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
+A screenshot of the web page is provided below. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![Top half of the Horiseon web page](assets/images/horiseon-screenshot-top.png)
+![Bottom half of the Horiseon web page](assets/images/horiseon-screenshot-bottom.png)
 
-```md
-![alt text](assets/images/screenshot.png)
-```
+Navigation links are at the top right and jump the user to the designated content section using anchor tags. As the web page isn't very long, this functionality is easier to demonstrate if the user's browser window height is reduced.
+
+Alternate text for web page images can be viewed by right-clicking on the desired image and selecting "Inspect".
 
 
 ## Credits
