@@ -41,11 +41,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I learned about semantic elements from the [Semrush Blog](https://www.semrush.com/blog/), [Semantic HTML: What It Is and How to Use It Correctly](https://www.semrush.com/blog/semantic-html5-guide/).
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+I learned about image descriptions from [Perkins School for the Blind](https://www.perkins.org/), [How to Write Alt Text and Image Descriptions for the visually impaired](https://www.perkins.org/resource/how-write-alt-text-and-image-descriptions-visually-impaired/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2Q3-ZpaKBjylgurELGWHtC1TeAx5Q_9LhN32vlC5OewXqIoyc9_VoaAggvEALw_wcB).
 
-If you followed tutorials, include links to those here as well.
+I learned about adding alternate text to a CSS-inserted background image from [CanAdapt](https://www.davidmacd.com/), [Alternate text for background images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 
 
 ## License
