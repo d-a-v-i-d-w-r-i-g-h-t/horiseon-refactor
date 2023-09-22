@@ -10,17 +10,9 @@ I researched accessiblity standards and learned that one key accessibilty concer
 
 Other page updates involved clean-up and organization of the HTML and CSS code. I fixed a broken navigation link, reordered CSS items to match the HTML, and consolidated various CSS selectors. I also added detailed comments to both the HTML and CSS files to clarify functionality.
 
-Notably, I learned that there are multiple ways to structure CSS tagging. Class IDs, elements such as "main" and "aside", or combinations of both can direct formatting of different components in the web page. I chose to add semantic elements and then remove superfluous Class IDs, but it is possible that one way or another might be the preferred standard for different developers or companies.
+Notably, I learned that there are multiple ways to structure CSS tagging. Class IDs, elements such as "main" and "aside", and combinations of both can direct formatting of various components in the web page. I chose to add semantic elements and then remove superfluous Class IDs, but it is possible that one way or another might be the preferred standard for different developers or companies.
 
-
-
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
-
-Lastly, if your project is deployed, include a link to the deployed application here.
-
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+I deployed the application on [GitHub](https://github.com/) [Pages](https://pages.github.com/), and it can be found [here](https://d-a-v-i-d-w-r-i-g-h-t.github.io/horiseon-refactor/).
 
 
 ## Installation
